@@ -1,5 +1,5 @@
 ## About Me
-I am a passionate, self-motivated programmer, who recently recieved his degree in Computer Science. My hobies weight lifting, cooking, and programming anything fun I can think of.
+I am a passionate, self-motivated programmer, who recently recieved his degree in Computer Science. My hobbies weight lifting, cooking, and programming anything fun I can think of.
 
 ## My Projects
 Here is a list of notable projects I have done. Clicking on the project will take you to its corresponding githubpage. Feel free download it and play around!
