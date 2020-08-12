@@ -5,6 +5,8 @@ I am a passionate, self-motivated programmer, who recently recieved his degree i
 Here is a list of notable projects I have done. Clicking on the project will take you to its corresponding githubpage. Feel free download it and play around!
 
 ### Web Dev.
+* [**Pokemon React App**](https://kvong.github.io/Learn-JavaScript/#/)
+    - Description: Front-end web app I made while learning React. Pokemon data is pulled from an external API and presented with BootStrap.
 * [**Webpage with backend server**](https://github.com/kvong/MyHomePage)
     - Description: My personalized homepage for storing, and deleting bookmarks. This website was built with standard web programming technologies such as, HTML, CSS, JavaScript, with Java Servlet as a backend.
 * [**Art Dealer Game**](https://github.com/kvong/Art-Dealer-App)
