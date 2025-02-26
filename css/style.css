@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -15,4 +17,11 @@
 
 .toggle-button:hover {
     background-color: #2d3748;
+}
+
+#hero-section {
+    background-image: url('http://raw.githubusercontent.com/kvong/dotfiles/refs/heads/master/screenshots/sample-qtile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }

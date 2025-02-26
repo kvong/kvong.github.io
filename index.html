@@ -5,24 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khanh Vong</title>
     <link href="css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="dark:bg-gray-900 bg-gray-100 dark:text-white text-gray-800 dark-mode transition-colors duration-300">
-    <div class="text-right p-8">
-        <button id="toggle-button" class="dark:bg-gray-600 bg-blue-400 text-white transition-colors duration-300 cursor-pointer p-3 rounded-sm">Toggle Dark Mode</button>
-    </div>
-    <div class="py-20 px-8 text-white text-center grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <div class="text-left">
-            <h1 class="text-4xl md:text-5xl font-bold mb-4">Welcome to My GitHub Pages Profile</h1>
-            <p class="text-lg md:text-xl">Explore my projects and contributions on GitHub</p>
-            <a href="https://github.com/your-username" class="mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">View My GitHub</a>
-        </div>
-        <div>
-            <img src="image.jpg" alt="Github Pages Image" class="mx-auto md:mx-0 rounded-lg shadow-lg">
-        </div>
+<body class="dark:bg-gray-900 bg-gray-100 dark:text-white text-gray-800 dark-mode transition-colors duration-300 px-20">
+    <div>
+        <!-- Sidebar -->
+        <aside class="max-w-100 w-1/4 px-8 py-45 bg-gray-200 dark:bg-gray-800 text-center fixed h-full float-left">
+            <div class="mb-4">
+                <img src="assets/chibi-avatar.png" alt="Profile Image" class="w-50 h-auto rounded-full m-auto border-2 border-b-emerald-800">
+            </div>
+            <!-- Header Content -->
+            <div class="mb-4">
+                <h1 class="text-3xl font-bold">Khanh Vong</h1>
+            </div>
+            <ul class="list-none">
+                <li class="mb-2">
+                    <span class="text-gray-700 dark:text-gray-300">
+                        <i class="fas fa-map-marker mr-2"></i> Missouri, United States
+                    </span>
+                </li>
+            </ul>
+            <ul class="flex justify-center">
+                <li class="mb-2">
+                    <a href="mailto:vongk7@gmail.com" class="text-gray-700 dark:text-gray-300">
+                        <i class="fas fa-envelope mr-2 text-3xl"></i>
+                    </a>
+                </li>
+                <li class="mb-2 mx-3">
+                    <a href="https://www.linkedin.com/in/khanh-vong-6b6561171/" class="text-gray-700 dark:text-gray-300">
+                        <i class="fab fa-linkedin mr-2 text-3xl"></i>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="https://github.com/kvong" class="text-gray-700 dark:text-gray-300">
+                        <i class="fab fa-github mr-2 text-3xl"></i>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="w-3/4 p-30 float-right">
+            <!-- Introduction Section -->
+            <section>
+                <h2 class="text-2xl font-semibold mb-2">About Me</h2>
+                <p class="text-gray-700 dark:text-gray-300">
+                    I am a passionate developer with experience in building web applications using modern technologies.
+                </p>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="mt-6">
+                <h2 class="text-2xl font-semibold mb-2">Technical Backgrounds</h2>
+                <div class="max-w-2xl">
+                    <div class="shadow-lg rounded-lg p-6 flex flex-col items-start mb-4">
+                        <h2 class="text-2xl font-bold mb-4 flex items-center"><i class="fas fa-globe text-blue-500 text-4xl mr-4"></i> Web Development</h2>
+                        <ul class="list-none">
+                            <li><h3 class="text-xl font-bold">NextJs Website</h3></li>
+                            <li><h3 class="text-xl font-bold">Custom Wordpress</h3></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="shadow-lg rounded-lg p-6 flex flex-col items-start mb-4">
+                        <h2 class="text-2xl font-bold mb-4 flex items-center"><i class="fas fa-server text-purple-500 text-4xl mr-4"></i> Infrastructure &amp; Devops</h2>
+                        <ul class="list-none">
+                            <li><h3 class="text-xl font-bold">AWS Load Balancer</h3></li>
+                            <li><h3 class="text-xl font-bold">Proxmox Homelab</h3></li>
+                        </ul>
+                    </div>
+
+                    <div class="shadow-lg rounded-lg p-6 flex flex-col items-start mb-4">
+                        <h2 class="text-2xl font-bold mb-4 flex items-center"><i class="fas fa-code text-green-500 text-4xl mr-4"></i> Programming Languages</h2>
+                        <ul class="list-none">
+                            <li><h3></h3></li>
+                            <li><h3></h3></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="mt-6">
+                <h2 class="text-2xl font-semibold mb-2">Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-white dark:bg-gray-700 p-4 rounded shadow">
+                        <h3 class="text-xl font-bold">Project One</h3>
+                        <p class="text-gray-700 dark:text-gray-300">Description of the first project.</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-700 p-4 rounded shadow">
+                        <h3 class="text-xl font-bold">Project Two</h3>
+                        <p class="text-gray-700 dark:text-gray-300">Description of the second project.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
     
     <!-- External JavaScript -->
-    <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
